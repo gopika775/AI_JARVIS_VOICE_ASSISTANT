@@ -1,0 +1,77 @@
+{
+     "intents" : 
+    [
+        {
+            "tag":"greeting",
+            "patterns":["hello","hii","hey","Wake up","jarvis"
+
+            ],
+            "responses":["Hello Ma'am", " How are you Ma'am" , "Always for you Ma'am","Hello","Here's your Assistant"
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":["Bye","goodbye","See you later","Sleep","Exit"
+
+            ],
+            "responses":["bye", "I'm Going" , "Bye Ma'am","Good bye","It'll be nice to meet you again","See you later"
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":["how are you","how you ","are you fine","are you good"
+
+            ],
+            "responses":["Fine", "Perfect" , "Cool","Like you","Are you fine?","I'm fine."
+            ]
+        },
+        {
+            "tag":"identity",
+            "patterns":["your name","what is your name","who are you","what are you"
+
+            ],
+            "responses":["Jarvis", "I am Jarvis" , "An A.I assistant","My name is Jarvis","Great Assistant"
+            ]
+        },
+        {
+            "tag":"time",
+            "patterns":["what is time","time","samay","what's the time"
+
+            ],
+            "responses":["time"]
+            
+        },
+        {
+            "tag":"date",
+            "patterns":["what is date","date","tareek","what's the date"
+
+            ],
+            "responses":["date"]
+        },
+        {
+            "tag":"day",
+            "patterns":["what is day","day","din","what's the day","today"
+
+            ],
+            "responses":["day"]
+        },
+        {
+            "tag":"wikipedia",
+            "patterns":["who is","about","what is","wikipedia"
+
+            ],
+            "responses":["wikipedia"]
+        },
+        {
+            "tag":"google",
+            "patterns":["google search","google","search" ],
+            "responses":["google"]
+        },
+        {
+            "tag":"play",
+            "patterns":["play song","play","search song" , "song" ],
+            "responses":["play"]
+        }
+    ]
+    
+}
